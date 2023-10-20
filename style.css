@@ -1,17 +1,9 @@
-@font-face {
-  src: url(fonts/Roboto-Light.ttf);
-  font-family: Roboto-Light;
-}
-@font-face {
-  src: url(fonts/OpenSans-Italic-VariableFont_wdth\wght.ttf);
-  font-family: Opensans;
-}
 h1 {
-  font-family: Roboto-Light, Arial, Helvetica;
+  text-shadow: 3px 3px 5px rgb(226, 0, 0), -3px -3px 5px rgb(16, 250, 218);
 }
-p {
-  font-family: Opensans, "luscida console", "Courier New";
-  font-size: 1em;
-  font-weight: bold;
-  font-style: normal;
+#box1 {
+  width: 100px;
+  height: 100px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 3px 3px 5px;
 }
