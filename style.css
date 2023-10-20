@@ -1,15 +1,17 @@
-body{
-    background-color: hsl(60, 4%, 18%)
+@font-face {
+  src: url(fonts/Roboto-Light.ttf);
+  font-family: Roboto-Light;
 }
-#p1{
-    color: tomato;
+@font-face {
+  src: url(fonts/OpenSans-Italic-VariableFont_wdth\wght.ttf);
+  font-family: Opensans;
 }
-#p2{
-    color: rgb(47, 179, 186)
+h1 {
+  font-family: Roboto-Light, Arial, Helvetica;
 }
-#p3{
-    color: #2a17d4;
-}
-#p4{
-    color: hsl(271, 76%, 53%);
+p {
+  font-family: Opensans, "luscida console", "Courier New";
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
 }
