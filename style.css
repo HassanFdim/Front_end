@@ -1,12 +1,9 @@
-body{
-    background-color: black;
+h1 {
+  text-shadow: 3px 3px 5px rgb(226, 0, 0), -3px -3px 5px rgb(16, 250, 218);
 }
-h1{
-    background-color: white;
+#box1 {
+  width: 100px;
+  height: 100px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 3px 3px 5px;
 }
-.odd{
-    color: green;
-}
- .even{
-    color: red;
- }
