@@ -1,8 +1,4 @@
 h1 {
-  border: 3px solid hsl(127, 84%, 51%);
-  border-radius: 20px;
-}
-p {
   border-bottom: 3px solid hsl(0, 100%, 40%);
   border-top: 3px solid hsl(61, 100%, 50%);
   border-left: 3px dotted hsl(120, 97%, 49%);
