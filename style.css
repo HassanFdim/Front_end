@@ -1,9 +1,7 @@
 h1 {
-  text-shadow: 3px 3px 5px rgb(226, 0, 0), -3px -3px 5px rgb(16, 250, 218);
-}
-#box1 {
-  width: 100px;
-  height: 100px;
-  background-color: hsl(0, 0%, 100%);
-  box-shadow: 3px 3px 5px;
+  border-bottom: 3px solid hsl(0, 100%, 40%);
+  border-top: 3px solid hsl(61, 100%, 50%);
+  border-left: 3px dotted hsl(120, 97%, 49%);
+  border-right: 3px dotted hsl(39, 100%, 50%);
+  border-radius: 10px;
 }
