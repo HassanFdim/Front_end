@@ -1,12 +1,5 @@
-body{
-    background-color: black;
+div {
+  border: 2px solid;
+  height: 75px;
+  overflow: auto;
 }
-h1{
-    background-color: white;
-}
-.odd{
-    color: green;
-}
- .even{
-    color: red;
- }
