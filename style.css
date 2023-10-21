@@ -1,12 +1,16 @@
-body{
-    background-color: black;
+body {
+  margin: 0px;
 }
-h1{
-    background-color: white;
+.box {
+  border: 5px solid;
+  font-size: 5em;
+  width: 250px;
+  height: 250px;
+  margin: auto;
 }
-.odd{
-    color: green;
+#box1 {
+  background-color: blueviolet;
 }
- .even{
-    color: red;
- }
+#box2 {
+  background-color: blue;
+}
