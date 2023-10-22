@@ -1,7 +1,16 @@
-h1 {
-  border-bottom: 3px solid hsl(0, 100%, 40%);
-  border-top: 3px solid hsl(61, 100%, 50%);
-  border-left: 3px dotted hsl(120, 97%, 49%);
-  border-right: 3px dotted hsl(39, 100%, 50%);
-  border-radius: 10px;
+body {
+  margin: 0px;
+}
+.box {
+  border: 5px solid;
+  font-size: 5em;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+#box1 {
+  background-color: blueviolet;
+}
+#box2 {
+  background-color: blue;
 }
