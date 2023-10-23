@@ -1,12 +1,12 @@
-body{
-    background-color: black;
+div {
+  background-color: hsl(0, 93%, 45%);
+  width: 100px;
+  height: 100px;
+  display: block;
 }
-h1{
-    background-color: white;
+span {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  display: block;
 }
-.odd{
-    color: green;
-}
- .even{
-    color: red;
- }
