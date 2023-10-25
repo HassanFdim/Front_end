@@ -1,12 +1,17 @@
-body {
-  border: 3px solid;
-  display: flow-root;
+* {
+  box-sizing: border-box;
 }
-#img1 {
+.container {
+  background-color: gray;
+  height: 100vh;
+}
+.box {
+  background-color: white;
+  border: 2px solid;
+  padding: 25px;
+  height: auto;
+  width: 50%;
   float: left;
-  margin-right: 10px;
-}
-#img2 {
-  float: right;
-  margin-left: 10px;
+  text-align: center;
+  max-height: 50%;
 }
