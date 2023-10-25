@@ -2,7 +2,15 @@
   width: 200px;
   height: 200px;
   background-color: hsl(197, 100%, 50%);
-  position: relative;
+  position: fixed;
   top: 100px;
   left: 100px;
+}
+#box2 {
+  width: 100px;
+  height: 100px;
+  background-color: hsl(351, 100%, 50%);
+  position: absolute;
+  top: 50px;
+  left: 50px;
 }
