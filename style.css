@@ -10,7 +10,7 @@
   width: 100px;
   height: 100px;
   background-color: hsl(351, 100%, 50%);
-  position: absolute;
+  position: static;
   top: 50px;
   left: 50px;
 }
