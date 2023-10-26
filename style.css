@@ -1,16 +1,6 @@
-#box1 {
-  width: 200px;
-  height: 200px;
-  background-color: hsl(197, 100%, 50%);
-  position: sticky;
-  top: 100px;
-  left: 100px;
+#container {
+  border: 2px solid;
 }
-#box2 {
-  width: 100px;
-  height: 100px;
-  background-color: hsl(351, 100%, 50%);
-  position: static;
-  top: 50px;
-  left: 50px;
+#container p {
+  background-color: hsl(60, 96%, 46%);
 }
