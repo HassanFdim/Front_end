@@ -1,14 +1,6 @@
-a:link {
-  color: hsl(240, 72%, 82%);
+li:hover {
+  background-color: yellow;
 }
-a:hover {
-  color: hsl(240, 85%, 58%);
-  font-size: 1.1em;
-}
-a:active {
-  color: hsl(240, 91%, 27%);
-  font-size: 1.1em;
-}
-a:visited {
-  color: gray;
+li:not(hover) {
+  background-color: blue;
 }
