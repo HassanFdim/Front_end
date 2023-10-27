@@ -1,3 +1,8 @@
-li:nth-child(3n + 1) {
-  background-color: yellow;
+#greeting p {
+  background-color: hsl(176, 100%, 69%);
+  padding: 10px;
+  display: none;
+}
+#greeting:hover p {
+  display: block;
 }
