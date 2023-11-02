@@ -1,18 +1,30 @@
-.pagination {
+body {
+  margin: 0px;
+}
+main {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h1 {
   text-align: center;
 }
-.pagination a {
-  color: hsl(251, 100%, 48%);
+.navbar ul {
+  list-style: none;
+  background-color: gray;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbar a {
+  color: white;
   text-decoration: none;
-  padding: 8px 15px;
-  display: inline-block;
+  padding: 15px;
+  display: block;
+  text-align: center;
 }
-.pagination a.active {
-  background-color: rgb(138, 232, 138);
-  font-weight: bold;
-  border-radius: 5px;
+.navbar a:hover {
+  background-color: black;
 }
-.pagination a:hover:not(.active) {
-  background-color: rgb(181, 179, 179);
-  border-radius: 5px;
+.navbar li {
+  float: left;
 }
