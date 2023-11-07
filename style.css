@@ -1,18 +1,40 @@
-.pagination {
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+header{
+  background-color: hsl(0, 0%, 70%);
   text-align: center;
+  padding: 25px;
 }
-.pagination a {
-  color: hsl(251, 100%, 48%);
-  text-decoration: none;
-  padding: 8px 15px;
-  display: inline-block;
+.navbar{
+  background-color: black;
+  height: 50px;
 }
-.pagination a.active {
-  background-color: rgb(138, 232, 138);
-  font-weight: bold;
-  border-radius: 5px;
+aside{
+  width: 20%;
+  float: left;
+  padding: 10px;
 }
-.pagination a:hover:not(.active) {
-  background-color: rgb(181, 179, 179);
-  border-radius: 5px;
+section{
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+article{
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+footer{
+  display: block;
+  clear: both;
+  background-color: hsl(0, 0%, 70%);
+  text-align: center;
+  padding: 25px;
+}
+@media screen and (max-width:600px) {
+  aside, section, article
 }
