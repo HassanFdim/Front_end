@@ -1,31 +1,21 @@
-.icons {
+body {
+  margin: 0;
+}
+.box {
+  width: 250px;
+  height: 250px;
+  border: 5px solid;
+  font-size: 13em;
   text-align: center;
+  transform: translateX(100px) rotate(45deg);
+  scale: 0.5;
 }
-.icons a {
-  text-decoration: none;
-  margin-right: 20px;
+#box1 {
+  background-color: rgb(128, 0, 0);
 }
-.fa-regular.fa-house.fa-5x {
-  color: hsl(40, 1%, 44%);
+#box2 {
+  background-color: rgb(128, 0, 96);
 }
-.fa-regular.fa-house.fa-5x:hover {
-  color: hsl(40, 1%, 76%);
-}
-.fa-brands.fa-twitter.fa-5x {
-  color: hsl(188, 100%, 50%);
-}
-.fa-brands.fa-twitter.fa-5x:hover {
-  color: hsl(188, 100%, 60%);
-}
-.fa-brands.fa-youtube.fa-5x {
-  color: hsl(0, 100%, 50%);
-}
-.fa-brands.fa-youtube.fa-5x:hover {
-  color: hsl(0, 82%, 62%);
-}
-.fa-brands.fa-twitch.fa-5x {
-  color: rgba(105, 105, 222, 0.848);
-}
-.fa-brands.fa-twitch.fa-5x:hover {
-  color: rgba(164, 164, 241, 0.848);
+#box3 {
+  background-color: hsl(78, 100%, 25%);
 }
