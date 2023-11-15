@@ -7,8 +7,7 @@ body {
   border: 5px solid;
   font-size: 13em;
   text-align: center;
-  transform: translateX(100px) rotate(45deg);
-  scale: 0.5;
+  transform: translateX(100px) rotate(45deg); scale: 0.8;
 }
 #box1 {
   background-color: rgb(128, 0, 0);
