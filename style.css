@@ -1,24 +1,20 @@
-.container {
-  display: flex;
-  border: 10px solid black;
-  height: 90vh;
+body {
+  margin: 0;
 }
 .box {
-  width: 150px;
-  height: 150px;
-  font-size: 8em;
+  width: 250px;
+  height: 250px;
+  border: 5px solid;
+  font-size: 13em;
   text-align: center;
-  border-radius: 15px;
+  transform: translateX(100px) rotate(45deg); scale: 0.8;
 }
 #box1 {
-  background-color: hsl(0, 90%, 51%);
+  background-color: rgb(128, 0, 0);
 }
 #box2 {
-  background-color: hsl(72, 96%, 53%);
+  background-color: rgb(128, 0, 96);
 }
 #box3 {
-  background-color: hsl(274, 98%, 55%);
-}
-#box4 {
-  background-color: hsl(101, 98%, 52%);
+  background-color: hsl(78, 100%, 25%);
 }
